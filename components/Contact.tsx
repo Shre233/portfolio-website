@@ -45,7 +45,7 @@ export default function Contact() {
                     return;
                 }
                 toast.success("Email sent successfully");
-                if(formRef!=null)
+                if(formRef.current!=null)
                 formRef.current.reset()
             }}>
                 <input type="email"
