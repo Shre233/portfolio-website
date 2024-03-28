@@ -34,8 +34,6 @@ export default function About() {
                 Exploring patterns in <span className='font-medium italic'>data, uncovering insights, and building predictive models </span> captivate me.
                 I find joy in leveraging data driven approaches to solve real-world problems, whether it's optimizing processes, 
                 making informed decisions, or powering intelligent systems.
-
-                
             </p>
 
             <p>
