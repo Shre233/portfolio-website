@@ -36,30 +36,56 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "DogVision",
+    title: "DogVision" as string,
     description:
-      "A Machine Learning based image processing tool for detecting different breed of the dogs.",
-    tags: ["Google Colab", "Python", "TensorFlow","Numpy","Data Visualization","Neural Networks"],
+      "A Machine Learning based image processing tool for detecting different breed of the dogs." as string,
+    tags: ["Google Colab", "Python", "TensorFlow","Numpy","Data Visualization"],
     imageUrl: DogVision,
     gitUrl:"https://github.com/Shre233/DogVision",
   },
   {
-    title: "AmazonClone",
+    title: "AmazonClone" as string,
     description:
-      "Developed a fully functional e-commerce web application closely resembling Amazon’s user interface and functionalities.",
+      "Developed a fully functional e-commerce web application closely resembling Amazon’s user interface and functionalities." as string,
     tags: [ "NodeJs", "Firebase", "Stripe API", "ReactJs","Material UI" ],
     imageUrl: AmazonProject,
     gitUrl:"https://github.com/Shre233/amazon-clone",
   },
   {
-    title: "Pokedex",
+    title: "Pokedex" as string,
     description:
-      "Created a digital Pokedex utilizing the PokeAPI to provide users with comprehensive information about Pokemon species, abilities and types",
+      "Created a digital Pokedex utilizing the PokeAPI to provide users with comprehensive information about Pokemon species, abilities and types" as string,
     tags: ["React", "API","Node.js","CSS","JavaScript"],
     imageUrl: Pokedex,
     gitUrl:"https://github.com/Shre233/PokedexApp",
   },
 ] as const;
+
+export const projectval=[
+  {
+    title:"DogVision",
+    description:"A Machine Learning Based Image Processing tool for detecting different breed of dogs.",
+    tags:["Google Colab","Python","TenserFlow","Numpy","Data Visualization"],
+    imageUrl:DogVision,
+    gitUrl:"https://github.com/Shre233/DogVision"
+  },
+  {
+    title: "AmazonClone" as string,
+    description:
+      "Developed a fully functional e-commerce web application closely resembling Amazon’s user interface and functionalities." as string,
+    tags: [ "NodeJs", "Firebase", "Stripe API", "ReactJs","Material UI" ],
+    imageUrl: AmazonProject,
+    gitUrl:"https://github.com/Shre233/amazon-clone",
+  },
+  {
+    title: "Pokedex" as string,
+    description:
+      "Created a digital Pokedex utilizing the PokeAPI to provide users with comprehensive information about Pokemon species, abilities and types" as string,
+    tags: ["React", "API","Node.js","CSS","JavaScript"],
+    imageUrl: Pokedex,
+    gitUrl:"https://github.com/Shre233/PokedexApp",
+  },
+]
 
 export const expData=[
   {
